@@ -20,7 +20,6 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 class ApiCaller {
-    //1337h4x0r5k1llz
     private OkHttpClient client = new OkHttpClient();
     PreviousRequestManager previousRequestManager = new PreviousRequestManager();
 
