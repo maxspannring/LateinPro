@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Latein Pro</string>
+    <string name="lateinpro_totype">LateinPro</string>
+    <string name="adMob_app_id">ca-app-pub-5192204082942271~8610725171</string>
+    <string name="adMob_app_interstitialAdd_id">ca-app-pub-5192204082942271/2003641149</string>
+    <string name="adMob_app_interstitialAdd_id_test">ca-app-pub-3940256099942544/8691691433</string>
+    <string name="howTo">Danke, dass du dir die LateinPro App runtergeladen hast :)
+\nSie ist die erste App, bei der du nach nur einem Foto alle Vokabel auf einem Blick parat hast! Und hier ist wie:
+\n\t1. Klicke auf das Kamera-Icon auf dem Startbildschirm
+\n\t2. Mache ein klares Foto von deinem Lateintext. Je besser das Foto, desto besser kann die App die Wörter erkennen
+\n\t3. Schneide das Foto so zu, dass bestenfalls nur noch der Latein Text zu sehen ist, und drücke auf „crop“. Sollte das Bild verdreht sein, dann benütze die Tasten, um das Bild in die richtige Richtung zu drehen.
+\n\t4. Hab ein Paar Sekunden Geduld und schon gibt dir die App alle Wörter an. Jetzt musst du nur noch auf die Wörter klicken, um die Form und Übersetzung zu sehen. Du kannst den Text auch in die Zwischenablage kopieren und ihn später zum Beispiel in Word einfügen. Das funktioniert übrigends auch mit deutschen Texten.
+\nWenn du nur bestimmte Wörter suchen willst, tippe das Wort einfach in die Suchleiste ein und sofort siehst du sämtliche Formen und Übersetzungen.
+\nWenn du Fragen oder Feedback an uns hast, klicke einfach auf das E-Mail-Icon, um uns eine E-Mail zu senden. Wir freuen uns über jede Rückmeldung und hoffen dir gefällt unsere App! :)
+</string>
+    <string name="KonaktText">Wenn du Fragen, Feedback oder andere Meldungen an uns hast, schick uns einfach eine Mail! Wir freuen uns für jede Rückmeldung und sagen Danke für deinen Download!\n\nUnsere Email Adresse:\nlateinpro.app@gmail.com\n\nUnd btw folgt mir auf Twitter: \nhttps://twitter.com/MaxSpannring</string>
+    <string name="anleitung">LateinPro ist die erste App, die nicht nur ein Latein Wörterbuch ist, sondern es dir auch ermöglicht, mit nur einem Foto alle Übersetzungen der Vokabel eines Latein Textes zu finden. Dadurch gibt es kein ständiges Nachschauen mehr und man hat alle Vokabel + deren Formen auf einen Blick! Features der App:\n • Einfache Suche einzelner Wörter\n • Foto-Übersetzung mit einfacher Bedienung\n • Kopieren von Texten in Zwischenablage\n • Light-Dark-Mode</string>
+    <string name="targetUrlExample">e.g. https://youtube.com</string>
+    <string name="ddosinfoText">====================\n NO URL SELECTED \n====================\n\n~Device ID:\tuid-010870aq1075oku3\n~isActive:\tTRUE\n~root-access:\tFALSE</string>
+
+</resources>

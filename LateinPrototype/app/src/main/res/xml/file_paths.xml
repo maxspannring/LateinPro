@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-path name="my_images" path="Android/data/com.lateinPro.lateinPro/files/Pictures" />
+    <!--
+        <external-files-path name="my_images" path="Android/data/com.lateinPro.lateinPro/files/Pictures" />
+
+        <cache-path name="my_images" path="Android/data/com.lateinPro.lateinPro/files/Pictures" />
+        <external-cache-path name="my_images" path="Android/data/com.lateinPro.lateinPro/files/Pictures" />
+        <files-path name="my_images" path="Android/data/com.lateinPro.lateinPro/files/Pictures" />
+        -->
+</paths>
+    <!--
+    <paths>
+        <external-path name="my_images" path="Android/data/com.example.lateinPro/files/Pictures" />
+
+        <external-files-path name="my_images" path="Android/data/com.example.lateinPro/files/Pictures" />
+        <cache-path name="my_images" path="Android/data/com.example.lateinPro/files/Pictures" />
+        <external-cache-path name="my_images" path="Android/data/com.example.lateinPro/files/Pictures" />
+        <files-path name="my_images" path="Android/data/com.example.lateinPro/files/Pictures" />
+    </paths>-->

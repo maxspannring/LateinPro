@@ -1,0 +1,115 @@
+//Für OneSignal
+buildscript {
+    repositories {
+        maven { url 'https://plugins.gradle.org/m2/'}
+    }
+    dependencies {
+        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:0.12.6'
+    }
+}
+apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+
+repositories {
+    maven { url 'https://maven.google.com' }
+}
+repositories {
+    maven {
+        url 'https://maven.google.com'
+        jcenter()
+    }
+}
+
+apply plugin: 'com.android.application'
+
+apply plugin: 'io.fabric'
+
+android {
+    signingConfigs {
+        release {
+            storeFile file('C:\\Users\\maxim\\Desktop\\keyStore.jks')
+            storePassword 'donttellyou'
+            keyPassword 'wrongpassword'
+            keyAlias = 'keyAlias'
+        }
+    }
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId 'com.lateinPro.lateinPro'
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 3
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        //OneSignal
+        manifestPlaceholders = [
+                onesignal_app_id: 'b7ef2084-d587-4c03-8210-0b63cb2409da',
+                // Project number pulled from dashboard, local value is ignored.
+                onesignal_google_project_number: 'REMOTE'
+        ]
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            multiDexEnabled = true
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    //FireBase
+    implementation 'com.google.firebase:firebase-ml-vision:24.0.1'
+    implementation 'com.google.firebase:firebase-analytics:17.2.1'
+    implementation "com.google.firebase:firebase-core:17.2.1"
+    //OkHtml
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+
+    //noinspection GradleCompatible
+    implementation 'com.android.support:support-v4:23.4.0'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:22.1.0'
+
+    //Cropper
+    //noinspection GradleCompatible
+    implementation "com.android.support:design:27.1.0"
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.6.0'
+
+    //OneSignal
+    implementation 'com.onesignal:OneSignal:[3.11.2, 3.99.99]'
+
+    //Admob
+    implementation fileTree (dir : 'libs', include : [ '*.jar' ])
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.google.android.gms:play-services-ads:18.3.0'
+
+    // Add the In-App Messaging and Analytics dependencies:
+    implementation 'com.google.firebase:firebase-inappmessaging-display:19.0.2'
+    implementation 'com.google.firebase:firebase-analytics:17.2.1'
+
+    // (Recommended) Add the Google Analytics dependency.
+    implementation 'com.google.firebase:firebase-analytics:17.2.1'
+
+    // Add the Firebase Crashlytics dependency.
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
+
+    //für PIN COde
+    implementation 'com.chaos.view:pinview:1.4.3'
+
+}
+//Apply Plugin für firebase
+apply plugin: 'com.google.gms.google-services'

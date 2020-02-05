@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:id="@+id/infoScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Anleitung"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textIsSelectable="true"
+                    android:textSize="36sp" />
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/howTo"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/holo_orange_dark" />
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="About"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textIsSelectable="true"
+                    android:textSize="36sp" />
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Wir selbst hatten mehr als 6 Jahre lang Latein und sind nun im letzten Jahr, in dem uns dieses Fach noch begleiten wird. Durch unsere jahrelange Erfahrung wissen wir, wie nervenerregend es sein kein, fast stundenlang Latein Vokabel in einem Wörterbuch zu suchen. Kaum hat man alle Vokabel gefunden, hat man das erste schon wieder vergessen. Und obwohl es nun schon etliche online Wörterbücher gibt, verliert man auch hier durch mühsames Eintippen der Wörter wertvolle Zeit. Und so haben wir uns rangemacht, eine Lösung für dieses Problem zu finden. Und das ist unsere Lösung. Mit der LateinPro© App reicht ein Foto ihres Latein Textes, um alle Wörter auf einen Blick parat zu haben. Die Tage von ständigem Herumblättern und Eintippen sind vorbei! Nur ein paar Klicks und alle Wörter sind abrufbereit. Und für den Fall, dass du nur ein oder weinige Wörter suchen willst, gibt es auch eine einfache Latein Suchmaschine. Nicht nur wird dir die Übersetzungen angezeigt, sondern auch die Formen der Wörter. Ein Muss für jeden, der Latein lernt!"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/holo_orange_dark" />
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kontakt"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textIsSelectable="true"
+                    android:textSize="36sp" />
+
+                <TextView
+                    android:id="@+id/tv6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:textColorLink="@color/lightdarkBackground"
+                    android:text="@string/KonaktText"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/black"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
