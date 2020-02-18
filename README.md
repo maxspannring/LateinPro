@@ -1,3 +1,4 @@
+![alt text](https://github.com/maxspannring/LateinPro/blob/master/LateinPrototype/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png "Latein Pro Logo")
 # Latein Pro
 Hier ist der vollständige Sourcecode von LateinPro!
 Der Link zur App bei Google Play: https://play.google.com/store/apps/details?id=com.lateinPro.lateinPro
@@ -11,7 +12,8 @@ und ihr unterstützendes Feedback. Beide waren jedoch nicht am Schreiben des eig
 
 ### Technische Details
 LateinPro nutzt moderne OCR Technologie, um Bilder in Text zu verwandeln, genauer gesagt das ML Kit von Firebase. Die App ist in Java geschrieben und
-deshalb exklusiv für Android verfügbar.
+deshalb exklusiv für Android verfügbar. Da ein Bild bekanntlich mehr als 1000 Worte sagt, ist hier eine Skizze des Programmflusses der App:
+![alt text](https://github.com/maxspannring/LateinPro/blob/master/wei%C3%9Fes_LateinPro%20Flowchart.png "Latein Pro Logo")
 
 ### Kontakt
 Fragen oder Feedback gerne an: lateinpro.app@gmail.com, oder auch als Rezession direkt im Play Store. Ich freue mich über jede Rückmeldung!
