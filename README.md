@@ -9,6 +9,8 @@ Die App wurde von mir im Zuge meiner VWA über die *"Funktionsweise und Anwendun
 ein besonderer Dank gilt auch 
 Felix Sax und Flavio Müller für das Design des Logos, der Mithilfe beim Veröffentlichen im Google Playstore sowie beim Werben um neue Nutzer,
 und ihr unterstützendes Feedback. Beide waren jedoch nicht am Schreiben des eigentlichen Codes beteiligt.
+[Link zu meiner VWA](https://github.com/maxspannring/LateinPro/blob/master/Funktionsweise%20und%20Anwendungsm%C3%B6glichkeiten%20von%20K%C3%BCnstlicher%20Intelligenz.pdf "Funktionsweise und Anwendungsmöglichkeiten von Künstlicher Intelligenz")
+
 
 ### Technische Details
 LateinPro nutzt moderne OCR Technologie, um Bilder in Text zu verwandeln, genauer gesagt das ML Kit von Firebase. Die App ist in Java geschrieben und
